@@ -61,19 +61,42 @@
 // containing result of squaring each of the numbers in the given array by two. Example: 
 // squareTheNumbers([1, 2, 3]) should give [1, 4, 9].
 
+// const array = [
+//     1,
+//     6,
+//     5,
+//     10,
+//     11,
+//     2
+// ]
+
+// function squareNum(array) {
+//     let newArray = [];
+//     for (let square of array){
+//         square = Math.pow(square, 2);
+//         newArray.push(square);
+//     }
+//     return newArray;
+// }
+// console.log(squareNum(array));
+
 ////////////////////////////////////////
 
 // Cities 1
 // Write a function which takes an array of city objects like such:
 
 // const cities = [
-//   { name: 'Los Angeles', temperature: 60.0},
-//   { name: 'Atlanta', temperature: 52.0 },
-//   { name: 'Detroit', temperature: 48.0 },
-//   { name: 'New York', temperature: 80.0 }
+//     { name: 'Los Angeles', temperature: 60.0},
+//     { name: 'Atlanta', temperature: 52.0 },
+//     { name: 'Detroit', temperature: 48.0 },
+//     { name: 'New York', temperature: 80.0 }
 // ];
-// as input and returns a new array containing the cities whose temperature is cooler than
-// 70 degrees.
+// // // as input and returns a new array containing the cities whose temperature is cooler than
+// // // 70 degrees.
+
+// function belowSeventy(cities) {
+
+// }
 
 ////////////////////////////////////////
 
@@ -86,24 +109,30 @@
 // Good Job!
 // Given an array of people's names:
 
-// const people = [
-//   'Dom',
-//   'Lyn',
-//   'Kirk',
-//   'Autumn',
-//   'Trista',
-//   'Jesslyn',
-//   'Kevin',
-//   'John',
-//   'Eli',
-//   'Juan',
-//   'Robert',
-//   'Keyur',
-//   'Jason',
-//   'Che',
-//   'Ben'
-// ];
+const people = [
+    'Dom',
+    'Lyn',
+    'Kirk',
+    'Autumn',
+    'Trista',
+    'Jesslyn',
+    'Kevin',
+    'John',
+    'Eli',
+    'Juan',
+    'Robert',
+    'Keyur',
+    'Jason',
+    'Che',
+    'Ben'
+];
 // Print out 'Good Job, {{name}}!' for each person's name, one on a line.
+people.forEach(function(people) {
+    console.log(`Good Job ${people}!`);
+})
+
+
+
 
 ////////////////////////////////////////
 
