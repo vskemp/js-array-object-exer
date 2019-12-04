@@ -94,9 +94,18 @@
 // // // as input and returns a new array containing the cities whose temperature is cooler than
 // // // 70 degrees.
 
-// function belowSeventy(cities) {
-
+// function belowSeventy(array) {
+//     let newArray = [];
+//     for (let city of array) {
+//         console.log(city['temperature']);
+//         if (city.temperature < 70) {
+//             newArray.push(city.name);
+//         }
+//     }
+//     return newArray;
 // }
+
+// console.log(belowSeventy(cities));
 
 ////////////////////////////////////////
 
@@ -104,35 +113,43 @@
 // Write a function which takes an array of city objects like the above problem as input and 
 // returns an array of the cities names.
 
+// function cityNames(array) {
+//     let newArray = [];
+//     for (let city of array) {
+//         console.log(city["temperature"]);
+//     newArray.push(city.name);
+//     }
+//     return newArray;
+// }
+
+// console.log(cityNames(cities));
+
 ////////////////////////////////////////
 
 // Good Job!
 // Given an array of people's names:
 
-const people = [
-    'Dom',
-    'Lyn',
-    'Kirk',
-    'Autumn',
-    'Trista',
-    'Jesslyn',
-    'Kevin',
-    'John',
-    'Eli',
-    'Juan',
-    'Robert',
-    'Keyur',
-    'Jason',
-    'Che',
-    'Ben'
-];
-// Print out 'Good Job, {{name}}!' for each person's name, one on a line.
-people.forEach(function(people) {
-    console.log(`Good Job ${people}!`);
-})
-
-
-
+// const people = [
+//     'Dom',
+//     'Lyn',
+//     'Kirk',
+//     'Autumn',
+//     'Trista',
+//     'Jesslyn',
+//     'Kevin',
+//     'John',
+//     'Eli',
+//     'Juan',
+//     'Robert',
+//     'Keyur',
+//     'Jason',
+//     'Che',
+//     'Ben'
+// ];
+// // Print out 'Good Job, {{name}}!' for each person's name, one on a line.
+// people.forEach(function(people) {
+//     console.log(`Good Job ${people}!`);
+// })
 
 ////////////////////////////////////////
 
@@ -145,6 +162,19 @@ people.forEach(function(people) {
 //   fun();
 // }
 // Use the call3Times function to print "Hello, world!" 3 times.
+
+// function fun() {
+//     console.log("Hello, world!");
+// }
+
+// function call3Times(fun) {
+//     fun();
+//     fun();
+//     fun();
+// }
+
+// call3Times(fun);
+
 
 ////////////////////////////////////////
 
@@ -159,6 +189,15 @@ people.forEach(function(people) {
 // Hello, world!
 // Hello, world!
 // You are allowed to use a loop in the implementation of callNTimes.
+
+
+// function callNTimes(times, fun) {
+//     for (let i = 0; i < times; i++) {
+//         fun();
+//     }
+// }
+
+// callNTimes(5, fun);
 
 ////////////////////////////////////////
 
@@ -176,13 +215,13 @@ people.forEach(function(people) {
 
 // You may use the following range function as is:
 
-// function range(min, max) {
-//   const arr = [];
-//   for (var i = min; i < max; i++) {
-//     arr.push(i);
-//   }
-//   return arr;
-// }
+function range(min, max) {
+    const arr = [];
+    for (var i = min; i < max; i++) {
+    arr.push(i);
+}
+    return arr;
+}
 
 ////////////////////////////////////////
 
