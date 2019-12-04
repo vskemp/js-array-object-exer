@@ -7,17 +7,58 @@
 // Write a function which takes an array of numbers as input and returns a new array 
 // containing only the positive numbers in the given array.
 
+// const numArray = [
+//     -1,
+//     12,
+//     -56,
+//     2,
+//     -2,
+//     -342,
+//     89
+// ];
+
+// function posNums(numArray) {
+//     let posArray = [];
+//     for  (let nums of numArray) {
+//         nums = nums > 0;
+//         posArray.push(nums);
+//     }
+//     return posArray;
+// }
+// console.log(posNums(numArray));
+
 ////////////////////////////////////////
 
 // Even Numbers
 // Write a function which takes an array of numbers as input and returns a new array containing 
 // only the even numbers in the given array.
 
+// const numArray = [
+//     7,
+//     18,
+//     56,
+//     900,
+//     909,
+//     2,
+//     34,
+//     5,
+// ];
+
+// function evenNums(numArray) {
+//     let evenArray = [];
+//     for  (let nums of numArray) {
+//         nums = nums % 2 == 0;
+//         evenArray.push(nums);
+//     }
+//     return evenArray;
+// }
+// console.log(evenNums(numArray));
+
 ////////////////////////////////////////
 
 // Square the Numbers
 // Write a function which takes an array of numbers as its argument and returns a new array 
-//containing result of squaring each of the numbers in the given array by two. Example: 
+// containing result of squaring each of the numbers in the given array by two. Example: 
 // squareTheNumbers([1, 2, 3]) should give [1, 4, 9].
 
 ////////////////////////////////////////
