@@ -3,8 +3,6 @@
 // (If you use loops, make sure they are part of the function.)
 ////////////////////////////////////////
 
-// WITH POSITIVE AND EVEN NUM EXERCISES: convert boolean to intagers????
-
 
 // Positive Numbers
 // Write a function which takes an array of numbers as input and returns a new array 
@@ -22,8 +20,8 @@
 
 // function posNums(numArray) {
 //     let posArray = [];
-//     for  (let nums of numArray) {
-//         nums = nums > 0;
+//     for (let nums of numArray) {
+//         if (nums > 0)
 //         posArray.push(nums);
 //     }
 //     return posArray;
@@ -48,9 +46,10 @@
 // ];
 
 // function evenNums(newArray) {
+//     debugger;
 //     let evenArray = [];
 //     for  (let nums of newArray) {
-//         nums = nums % 2 == 0;
+//         if (nums % 2 == 0)
 //         evenArray.push(nums);
 //     }
 //     return evenArray;
